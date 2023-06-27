@@ -1,0 +1,16 @@
+#game-board {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+}
+
+.dot {
+  background-color: gray; /*This gives all the divs called dot*/
+  border-radius: 50%; /*this makes it into a circle */
+  width: 50px; /*the width and the height makes it a perfect circle*/
+  height: 50px;
+  margin: 35px; /*This is give the dots/divs space between all of them*/
+}
