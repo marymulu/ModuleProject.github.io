@@ -1,0 +1,33 @@
+body {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: aquamarine;
+}
+
+h1 {
+  color: #333;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+input {
+  padding: 5px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#message {
+  font-size: 24px;
+  font-weight: bold;
+}
