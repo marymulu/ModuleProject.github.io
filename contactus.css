@@ -10,10 +10,15 @@ header {
   padding: 20px 0;
 }
 
+nav {
+  text-align: left;
+}
+
 nav ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
+  
 }
 
 nav ul li {

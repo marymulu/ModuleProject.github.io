@@ -1,5 +1,4 @@
 body {
-  text-align: center;
   font-family: Arial, sans-serif;
   background-color: rgb(48, 18, 183);
   margin: 0;
@@ -15,8 +14,7 @@ header {
 }
 
 nav {
-  margin: 0;
-  padding: 0;
+  text-align: left;
 }
 
 nav ul {
@@ -43,6 +41,7 @@ main {
   padding: 40px 20px;
   color: #fff; /* Set the text color to contrast with the background */
   opacity: 0.5; /* Adjust the opacity value as needed (0.0 - 1.0) */
+  text-align: center;
 }
 
 footer {
