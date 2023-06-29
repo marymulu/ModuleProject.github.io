@@ -19,7 +19,7 @@
     </header>
     <div class="container">
       <form action="action_page.php">
-        <label for="fname">First Name</label>
+        <label for="fname">First Name*</label>
         <input
           type="text"
           id="fname"
@@ -27,7 +27,7 @@
           placeholder="Your name.."
         />
 
-        <label for="lname">Last Name</label>
+        <label for="lname">Last Name*</label>
         <input
           type="text"
           id="lname"
@@ -35,7 +35,7 @@
           placeholder="Your last name.."
         />
 
-        <label for="country">Country</label>
+        <label for="country">Country*</label>
         <select id="country" name="country">
           <option value="australia">Australia</option>
           <option value="canada">Canada</option>
@@ -43,7 +43,7 @@
           <option value="other">Other</option>
         </select>
 
-        <label for="subject">Subject</label>
+        <label for="subject">Subject*</label>
         <textarea
           id="subject"
           name="subject"
@@ -51,8 +51,9 @@
           style="height: 200px"
         ></textarea>
 
-        <input type="submit" value="Submit" />
+        <input type="submit" onclick="clicked(event);" value="Submit" />
       </form>
     </div>
+    <script src="contactus.js"></script>
   </body>
 </html>
