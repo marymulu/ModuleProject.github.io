@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
   var checkButton = document.getElementById("check");
   var messageDisplay = document.getElementById("message");
 
-  var secretNumber = Math.floor(Math.random() * 50) + 1;
+  var secretNumber = Math.floor(Math.random() * 10) + 1;
   var attempts = 0;
 
   function checkGuess() {
